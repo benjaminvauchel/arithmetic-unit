@@ -1,0 +1,770 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/benja/Documents/Divers/github/arithmetic-unit
+Earithmetic_unit
+Z1 w1702350127
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 10
+R0
+Z5 8./SRC/RTL/arithmetic_unit.vhd
+Z6 F./SRC/RTL/arithmetic_unit.vhd
+l0
+Z7 L40 1
+VXOf:YXl0LW^?NR`fd@T;k1
+!s100 @<Pfj9o3LO=?73io9mL0B0
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1751824556
+!i10b 1
+Z10 !s108 1751824556.000000
+Z11 !s90 -reportprogress|300|-work|LIB_RTL|./SRC/RTL/arithmetic_unit.vhd|
+Z12 !s107 ./SRC/RTL/arithmetic_unit.vhd|
+!i113 1
+Z13 o-work LIB_RTL
+Z14 tExplicit 1 CvgOpt 0
+Astruct_arch
+R2
+R3
+R4
+Z15 DEx4 work 15 arithmetic_unit 0 22 XOf:YXl0LW^?NR`fd@T;k1
+!i122 10
+l83
+L51 56
+VVjoR?2[LOo4AQU=MDKC:?3
+!s100 5g0aNm<8TzRbjLl=gOXH00
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Carithmetic_unit_conf
+earithmetic_unit
+Z16 astruct_arch
+Z17 DEx4 work 14 my_shift_right 0 22 _8nLSCgcOn;ba?RAFKmzC2
+Z18 DEx4 work 17 signed_nbit_adder 0 22 eIMk0ZzXeb0ToW2Dz<TfB1
+Z19 DEx4 work 10 multiplier 0 22 iP8XD`CdUc0KZ3:Dn>h=93
+DAx4 work 15 arithmetic_unit 11 struct_arch 22 VjoR?2[LOo4AQU=MDKC:?3
+R2
+R3
+R4
+R15
+!i122 10
+R1
+R0
+R5
+R6
+l0
+L108 1
+V^L@hJUFZ<W?R=>iRFXmV^3
+!s100 <3QH<4eRId:57J9QbIXn>2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Earithmetic_unit_seq
+Z20 w1751824530
+R2
+R3
+R4
+!i122 11
+R0
+Z21 8./SRC/RTL/arithmetic_unit_seq.vhd
+Z22 F./SRC/RTL/arithmetic_unit_seq.vhd
+l0
+R7
+V7m4b:fY=adC@M2eLRzn7`1
+!s100 782>aL9QjN0nZV_g7cU]z2
+R8
+32
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-work|LIB_RTL|./SRC/RTL/arithmetic_unit_seq.vhd|
+Z24 !s107 ./SRC/RTL/arithmetic_unit_seq.vhd|
+!i113 1
+R13
+R14
+Astruct_arch
+R2
+R3
+R4
+Z25 DEx4 work 19 arithmetic_unit_seq 0 22 7m4b:fY=adC@M2eLRzn7`1
+!i122 11
+l96
+L54 117
+V51B7eiVj2=J@H=33FI:fD2
+!s100 QHhM[8;<APQIGK>N_X9a`1
+R8
+32
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Carithmetic_unit_seq_conf
+earithmetic_unit_seq
+R16
+Z26 DEx4 work 18 my_shift_right_seq 0 22 5d;X@Y>QgdMcNQ4HUGzPV2
+R18
+R19
+DAx4 work 19 arithmetic_unit_seq 11 struct_arch 22 51B7eiVj2=J@H=33FI:fD2
+R2
+R3
+R4
+R25
+!i122 11
+R20
+R0
+R21
+R22
+l0
+L172 1
+VI9M91=Z6@FCkR_d8fjSE;2
+!s100 SBh1G``EB2I>]hSHMB2Y13
+R8
+32
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Earithmetic_unit_top_lvl
+Z27 w1751824507
+R2
+R3
+R4
+!i122 13
+R0
+Z28 8./SRC/RTL/arithmetic_unit_top_lvl.vhd
+Z29 F./SRC/RTL/arithmetic_unit_top_lvl.vhd
+l0
+R7
+V6UjTU>9ao_d]1>fWJMDWJ2
+!s100 d0f=Y[BbVmMQ254kRoizV0
+R8
+32
+R9
+!i10b 1
+R10
+Z30 !s90 -reportprogress|300|-work|LIB_RTL|./SRC/RTL/arithmetic_unit_top_lvl.vhd|
+!s107 ./SRC/RTL/arithmetic_unit_top_lvl.vhd|
+!i113 1
+R13
+R14
+Astruct_arch
+R2
+R3
+R4
+DEx4 work 23 arithmetic_unit_top_lvl 0 22 6UjTU>9ao_d]1>fWJMDWJ2
+!i122 13
+l82
+L53 69
+Vj^`nn2ODJ;FUeP]BW?TBl2
+!s100 Y6>G_iAo_mN@K2NE]O<5A1
+R8
+32
+R9
+!i10b 1
+R10
+R30
+Z31 !s107 ./SRC/RTL/arithmetic_unit_top_lvl.vhd|
+!i113 1
+R13
+R14
+Efour_to_one_mux
+Z32 w1702349363
+R3
+R4
+!i122 6
+R0
+Z33 8./SRC/RTL/four_to_one_mux.vhd
+Z34 F./SRC/RTL/four_to_one_mux.vhd
+l0
+Z35 L35 1
+Vb]oYHODYX976l4=BAim3M3
+!s100 nSU3k:jgEeFIU[3cHAASh3
+R8
+32
+Z36 !s110 1751824555
+!i10b 1
+Z37 !s108 1751824555.000000
+Z38 !s90 -reportprogress|300|-work|LIB_RTL|./SRC/RTL/four_to_one_mux.vhd|
+Z39 !s107 ./SRC/RTL/four_to_one_mux.vhd|
+!i113 1
+R13
+R14
+Abeh_arch
+R3
+R4
+DEx4 work 15 four_to_one_mux 0 22 b]oYHODYX976l4=BAim3M3
+!i122 6
+l48
+L46 8
+Va:GAD;?kQXIK;A40oEk]b2
+!s100 A>j=Z^VlAk;5gaI<;1@QT3
+R8
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R13
+R14
+Efull_adder
+Z40 w1702349432
+R3
+R4
+!i122 1
+R0
+Z41 8./SRC/RTL/full_adder.vhd
+Z42 F./SRC/RTL/full_adder.vhd
+l0
+Z43 L38 1
+VjcQamm5XZgeXYQczTnS[V1
+!s100 Bj=dHR1A;55OzR;0^6k@]3
+R8
+32
+R36
+!i10b 1
+R37
+Z44 !s90 -reportprogress|300|-work|LIB_RTL|./SRC/RTL/full_adder.vhd|
+Z45 !s107 ./SRC/RTL/full_adder.vhd|
+!i113 1
+R13
+R14
+Astruct_arch
+R3
+R4
+Z46 DEx4 work 10 full_adder 0 22 jcQamm5XZgeXYQczTnS[V1
+!i122 1
+l60
+L47 31
+Vz`XKRa7o@WiQ9[0=GEMXA1
+!s100 3lAS@KD[S@PWP6oa6B;ia2
+R8
+32
+R36
+!i10b 1
+R37
+R44
+R45
+!i113 1
+R13
+R14
+Cfull_adder_conf
+efull_adder
+R16
+Z47 DEx4 work 10 half_adder 0 22 nNE<UOU4GgAZnbFPXT62U2
+DAx4 work 10 full_adder 11 struct_arch 22 z`XKRa7o@WiQ9[0=GEMXA1
+R3
+R4
+R46
+!i122 1
+R40
+R0
+R41
+R42
+l0
+L79 1
+VM7ML6>Ma<^dVj4g205U9b0
+!s100 `6FA`Ho@][]5zAGR=8]V01
+R8
+32
+R36
+!i10b 1
+R37
+R44
+R45
+!i113 1
+R13
+R14
+Eget_opposite
+Z48 w1702349410
+R3
+R4
+!i122 4
+R0
+Z49 8./SRC/RTL/get_opposite.vhd
+Z50 F./SRC/RTL/get_opposite.vhd
+l0
+R35
+V6EZ=2J5nY75k>Oe84g?[>3
+!s100 c:?N=VX?Oz_b8PkOJJ2bS1
+R8
+32
+R36
+!i10b 1
+R37
+Z51 !s90 -reportprogress|300|-work|LIB_RTL|./SRC/RTL/get_opposite.vhd|
+Z52 !s107 ./SRC/RTL/get_opposite.vhd|
+!i113 1
+R13
+R14
+Abeh_arch
+R3
+R4
+DEx4 work 12 get_opposite 0 22 6EZ=2J5nY75k>Oe84g?[>3
+!i122 4
+l57
+L44 27
+VAbH<WGi:fKLQTP356fk9H2
+!s100 F]Vfh`m_FD=1?ISdNEVlD2
+R8
+32
+R36
+!i10b 1
+R37
+R51
+R52
+!i113 1
+R13
+R14
+Ehalf_adder
+Z53 w1702349424
+R3
+R4
+!i122 0
+R0
+Z54 8./SRC/RTL/half_adder.vhd
+Z55 F./SRC/RTL/half_adder.vhd
+l0
+R35
+VnNE<UOU4GgAZnbFPXT62U2
+!s100 `Ii1@RW=2P_M2fDS5>3FR1
+R8
+32
+R36
+!i10b 1
+R37
+Z56 !s90 -reportprogress|300|-work|LIB_RTL|./SRC/RTL/half_adder.vhd|
+Z57 !s107 ./SRC/RTL/half_adder.vhd|
+!i113 1
+R13
+R14
+Ahalf_adder_arch
+R3
+R4
+R47
+!i122 0
+l45
+L43 8
+VhCD8l@e^SP`;O8KGQNT5d0
+!s100 ZJCkMY:aG<NMHIBTQBA[J3
+R8
+32
+R36
+!i10b 1
+R37
+R56
+R57
+!i113 1
+R13
+R14
+Emultiplier
+Z58 w1702350088
+R2
+R3
+R4
+!i122 5
+R0
+Z59 8./SRC/RTL/multiplier.vhd
+Z60 F./SRC/RTL/multiplier.vhd
+l0
+Z61 L37 1
+ViP8XD`CdUc0KZ3:Dn>h=93
+!s100 M`IG4BbQ;3>ZgcRmJgLAC1
+R8
+32
+R36
+!i10b 1
+R37
+Z62 !s90 -reportprogress|300|-work|LIB_RTL|./SRC/RTL/multiplier.vhd|
+Z63 !s107 ./SRC/RTL/multiplier.vhd|
+!i113 1
+R13
+R14
+Abooth_arch
+R2
+R3
+R4
+R19
+!i122 5
+l91
+L47 100
+V94X9OTTdGSeVmA6Ic^n6Q3
+!s100 l<8A=mo<^T[j7cc=SzOZV1
+R8
+32
+R36
+!i10b 1
+R37
+R62
+R63
+!i113 1
+R13
+R14
+Emy_register
+Z64 w1702350181
+R3
+R4
+!i122 12
+R0
+Z65 8./SRC/RTL/my_register.vhd
+Z66 F./SRC/RTL/my_register.vhd
+l0
+Z67 L36 1
+V3J=MQ;cFE@B`GknAbd[bc0
+!s100 GMczo;^PaeVDR7kSQgB=i0
+R8
+32
+R9
+!i10b 1
+R10
+Z68 !s90 -reportprogress|300|-work|LIB_RTL|./SRC/RTL/my_register.vhd|
+Z69 !s107 ./SRC/RTL/my_register.vhd|
+!i113 1
+R13
+R14
+Atwo_seg_arch
+R3
+R4
+DEx4 work 11 my_register 0 22 3J=MQ;cFE@B`GknAbd[bc0
+!i122 12
+l49
+L45 20
+VmWRSf7i1_55SUDCLhNgzB2
+!s100 <;dNkLIe0CD;=4bf47kd@3
+R8
+32
+R9
+!i10b 1
+R10
+R68
+R69
+!i113 1
+R13
+R14
+Emy_shift_right
+Z70 w1751815961
+R2
+R3
+R4
+!i122 8
+R0
+Z71 8./SRC/RTL/my_shift_right.vhd
+Z72 F./SRC/RTL/my_shift_right.vhd
+l0
+L39 1
+V_8nLSCgcOn;ba?RAFKmzC2
+!s100 Y9VM>@=0FhZQUcUZ8?HF_0
+R8
+32
+R9
+!i10b 1
+R10
+Z73 !s90 -reportprogress|300|-work|LIB_RTL|./SRC/RTL/my_shift_right.vhd|
+Z74 !s107 ./SRC/RTL/my_shift_right.vhd|
+!i113 1
+R13
+R14
+Acombinational_struct_arch
+R2
+R3
+R4
+R17
+!i122 8
+l65
+L49 34
+VNF?gm3;3`H1]gH0fBEi883
+!s100 HI`>b_`?>aHZJ7z2@nUhY3
+R8
+32
+R9
+!i10b 1
+R10
+R73
+R74
+!i113 1
+R13
+R14
+Cmy_shift_right_conf
+emy_shift_right
+acombinational_struct_arch
+Z75 DEx4 work 18 single_shift_right 0 22 Iek09?A]B^T1GWDkZT``E1
+DAx4 work 14 my_shift_right 25 combinational_struct_arch 22 NF?gm3;3`H1]gH0fBEi883
+R2
+R3
+R4
+R17
+!i122 8
+R70
+R0
+R71
+R72
+l0
+L84 1
+Vj9L_Z>393^eHZY;a;Zk2_1
+!s100 ARCJmc4HeoBXjJ3iO6Ri@0
+R8
+32
+R9
+!i10b 1
+R10
+R73
+R74
+!i113 1
+R13
+R14
+Emy_shift_right_seq
+Z76 w1751819947
+R2
+R3
+R4
+!i122 9
+R0
+Z77 8./SRC/RTL/my_shift_right_seq.vhd
+Z78 F./SRC/RTL/my_shift_right_seq.vhd
+l0
+R35
+V5d;X@Y>QgdMcNQ4HUGzPV2
+!s100 @c:1zUCe6989`JEi@gKYT0
+R8
+32
+R9
+!i10b 1
+R10
+Z79 !s90 -reportprogress|300|-work|LIB_RTL|./SRC/RTL/my_shift_right_seq.vhd|
+Z80 !s107 ./SRC/RTL/my_shift_right_seq.vhd|
+!i113 1
+R13
+R14
+Aseq_beh_arch
+R2
+R3
+R4
+R26
+!i122 9
+l59
+L49 73
+V0H6W045Ki>8a^b4IJ9E?83
+!s100 EBZROa>U?>`AX[6;TG;`E2
+R8
+32
+R9
+!i10b 1
+R10
+R79
+R80
+!i113 1
+R13
+R14
+Esigned_nbit_adder
+Z81 w1702349583
+R3
+R4
+!i122 2
+R0
+Z82 8./SRC/RTL/signed_nbit_adder.vhd
+Z83 F./SRC/RTL/signed_nbit_adder.vhd
+l0
+R43
+VeIMk0ZzXeb0ToW2Dz<TfB1
+!s100 3RdkZ7QDlW]iO5mPM^83M3
+R8
+32
+R36
+!i10b 1
+R37
+Z84 !s90 -reportprogress|300|-work|LIB_RTL|./SRC/RTL/signed_nbit_adder.vhd|
+Z85 !s107 ./SRC/RTL/signed_nbit_adder.vhd|
+!i113 1
+R13
+R14
+Astruct_arch
+R3
+R4
+R18
+!i122 2
+l61
+L47 41
+VWM:o80HQ?^R;Ue>n5D==53
+!s100 V1afbG[719Vd]9P2=cZ?F2
+R8
+32
+R36
+!i10b 1
+R37
+R84
+R85
+!i113 1
+R13
+R14
+Csigned_nbit_adder_conf
+esigned_nbit_adder
+R16
+R46
+Z86 DCx7 lib_rtl 15 full_adder_conf 0 22 M7ML6>Ma<^dVj4g205U9b0
+DAx4 work 17 signed_nbit_adder 11 struct_arch 22 WM:o80HQ?^R;Ue>n5D==53
+R3
+R4
+R18
+!i122 2
+R81
+R0
+R82
+R83
+l0
+L89 1
+Vn[TZ@^SDVdiz6U3C>SFU?1
+!s100 0Q8?4TYd[d:LceFz_Xd4S2
+R8
+32
+R36
+!i10b 0
+R37
+R84
+R85
+!i113 1
+R13
+R14
+Esigned_overflow_nbit_adder
+Z87 w1702349602
+R3
+R4
+!i122 3
+R0
+Z88 8./SRC/RTL/signed_overflow_nbit_adder.vhd
+Z89 F./SRC/RTL/signed_overflow_nbit_adder.vhd
+l0
+R61
+VhkS>b9aB?>CQ=RS`F@1<51
+!s100 X[JhgMTR>=[nG4S0nYKjU3
+R8
+32
+R36
+!i10b 1
+R37
+Z90 !s90 -reportprogress|300|-work|LIB_RTL|./SRC/RTL/signed_overflow_nbit_adder.vhd|
+Z91 !s107 ./SRC/RTL/signed_overflow_nbit_adder.vhd|
+!i113 1
+R13
+R14
+Astruct_arch
+R3
+R4
+Z92 DEx4 work 26 signed_overflow_nbit_adder 0 22 hkS>b9aB?>CQ=RS`F@1<51
+!i122 3
+l57
+L47 32
+VC2;2dMIW?1DN>Ne_9?]HD1
+!s100 ?J49IJ[[`?F5D==nkKC4n1
+R8
+32
+R36
+!i10b 1
+R37
+R90
+R91
+!i113 1
+R13
+R14
+Csigned_overflow_nbit_adder_conf
+esigned_overflow_nbit_adder
+R16
+R46
+R86
+DAx4 work 26 signed_overflow_nbit_adder 11 struct_arch 22 C2;2dMIW?1DN>Ne_9?]HD1
+R3
+R4
+R92
+!i122 3
+R87
+R0
+R88
+R89
+l0
+L80 1
+VhYg1OjBhHg0l9lcjGzi`72
+!s100 AXKj4[:c8J`IbYkgE:SJ_0
+R8
+32
+R36
+!i10b 0
+R37
+R90
+R91
+!i113 1
+R13
+R14
+Esingle_shift_right
+Z93 w1702350103
+R2
+R3
+R4
+!i122 7
+R0
+Z94 8./SRC/RTL/single_shift_right.vhd
+Z95 F./SRC/RTL/single_shift_right.vhd
+l0
+R67
+VIek09?A]B^T1GWDkZT``E1
+!s100 ==5H[OH1TY58aXigodZkU2
+R8
+32
+R36
+!i10b 1
+R37
+Z96 !s90 -reportprogress|300|-work|LIB_RTL|./SRC/RTL/single_shift_right.vhd|
+Z97 !s107 ./SRC/RTL/single_shift_right.vhd|
+!i113 1
+R13
+R14
+Abeh_arch
+R2
+R3
+R4
+R75
+!i122 7
+l47
+L45 7
+V8=MW2`Ahz>Qcmh2dz@IQA0
+!s100 D[QaTz3546^bHOAg8L79o2
+R8
+32
+R36
+!i10b 1
+R37
+R96
+R97
+!i113 1
+R13
+R14

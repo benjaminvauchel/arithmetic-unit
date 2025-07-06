@@ -1,0 +1,47 @@
+#!/bin/bash
+
+#export PROJECTNAME="."
+
+
+echo "the project location is :  ."
+echo "removing libs"
+vdel -lib  ./LIB/LIB_RTL -all
+vdel -lib  ./LIB/LIB_BENCH -all
+
+echo "creating library "
+
+vlib  ./LIB/LIB_RTL
+vmap LIB_RTL  ./LIB/LIB_RTL
+vlib  ./LIB/LIB_BENCH
+vmap LIB_BENCH  ./LIB/LIB_BENCH
+
+echo "compile vhdl sources"
+vcom -work LIB_RTL ./SRC/RTL/half_adder.vhd
+vcom -work LIB_RTL ./SRC/RTL/full_adder.vhd
+vcom -work LIB_RTL ./SRC/RTL/signed_nbit_adder.vhd
+vcom -work LIB_RTL ./SRC/RTL/signed_overflow_nbit_adder.vhd
+vcom -work LIB_RTL ./SRC/RTL/get_opposite.vhd
+vcom -work LIB_RTL ./SRC/RTL/multiplier.vhd
+vcom -work LIB_RTL ./SRC/RTL/four_to_one_mux.vhd
+vcom -work LIB_RTL ./SRC/RTL/single_shift_right.vhd
+vcom -work LIB_RTL ./SRC/RTL/my_shift_right.vhd
+vcom -work LIB_RTL ./SRC/RTL/my_shift_right_seq.vhd
+vcom -work LIB_RTL ./SRC/RTL/arithmetic_unit.vhd
+vcom -work LIB_RTL ./SRC/RTL/arithmetic_unit_seq.vhd
+vcom -work LIB_RTL ./SRC/RTL/my_register.vhd
+vcom -work LIB_RTL ./SRC/RTL/arithmetic_unit_top_lvl.vhd
+
+vcom -work LIB_BENCH ./SRC/BENCH/half_adder_tb.vhd
+vcom -work LIB_BENCH ./SRC/BENCH/full_adder_tb.vhd
+vcom -work LIB_BENCH ./SRC/BENCH/signed_nbit_adder_tb.vhd
+vcom -work LIB_BENCH ./SRC/BENCH/signed_overflow_nbit_adder_tb.vhd
+vcom -work LIB_BENCH ./SRC/BENCH/get_opposite_tb.vhd
+vcom -work LIB_BENCH ./SRC/BENCH/four_to_one_mux_tb.vhd
+vcom -work LIB_BENCH ./SRC/BENCH/multiplier_tb.vhd
+vcom -work LIB_BENCH ./SRC/BENCH/single_shift_right_tb.vhd
+vcom -work LIB_BENCH ./SRC/BENCH/my_shift_right_tb.vhd
+vcom -work LIB_BENCH ./SRC/BENCH/my_shift_right_seq_tb.vhd
+vcom -work LIB_BENCH ./SRC/BENCH/my_register_tb.vhd
+vcom -work LIB_BENCH ./SRC/BENCH/arithmetic_unit_tb.vhd
+vcom -work LIB_BENCH ./SRC/BENCH/arithmetic_unit_seq_tb.vhd
+vcom -work LIB_BENCH ./SRC/BENCH/arithmetic_unit_top_lvl_tb.vhd
