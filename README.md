@@ -104,6 +104,6 @@ This project is provided for academic purposes. Feel free to explore, modify, or
 ---
 
 # Notes
-- The arithmetic_unit entity strictly follows the requirement to model the arithmetic unit structurally using only component instantiation (no process blocks).
-- An enhanced sequential version is also included for both the arithmetic right shift and the full arithmetic unit, providing a more optimized and FPGA-friendly alternative.
+- The *arithmetic_unit* entity strictly follows the requirement to model the arithmetic unit structurally using only component instantiation (no process blocks).
+- An enhanced sequential version, *arithmetic_unit_seq*, is also included for both the arithmetic right shift and the full arithmetic unit, providing a more optimized and FPGA-friendly alternative.
 - For synthesis or FPGA deployment, further timing analysis and optimization may be required.
