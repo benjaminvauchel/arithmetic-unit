@@ -33,8 +33,8 @@ arithmetic-unit
 │   ├── LIB_BENCH          # Compiled library for testbenches
 │   └── LIB_RTL            # Compiled library for RTL modules
 ├── SRC
-│   ├── BENCH     		   # Testbenches for all modules
-│   └── RTL       		   # RTL source files for the arithmetic unit
+│   ├── BENCH              # Testbenches for all modules
+│   └── RTL                # RTL source files for the arithmetic unit
 ├── init_to_compile.txt    # Bash script to initialize libraries
 ├── compile_src.txt        # Bash script to compile all SRC files
 ├── Report (academic).pdf  # Upcoming report
