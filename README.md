@@ -30,8 +30,8 @@ The design includes a **signed n-bit adder**, a **Booth's multiplier**, and an *
 ```
 arithmetic-unit
 ├── LIB
-│   ├── LIB_BENCH 		   # Compiled library for testbenches
-│   └── LIB_RTL   		   # Compiled library for RTL modules
+│   ├── LIB_BENCH          # Compiled library for testbenches
+│   └── LIB_RTL            # Compiled library for RTL modules
 ├── SRC
 │   ├── BENCH     		   # Testbenches for all modules
 │   └── RTL       		   # RTL source files for the arithmetic unit
